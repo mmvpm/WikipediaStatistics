@@ -1,0 +1,9 @@
+<mediawiki xml:lang="ru">
+    <page>
+        <title>Простой заголовок with some English words</title>
+        <revision>
+            <timestamp>2020-01-01T00:00:00Z</timestamp>
+            <text bytes="65">[[Простой как-бы текст]] ну и English words!</text>
+        </revision>
+    </page>
+</mediawiki>

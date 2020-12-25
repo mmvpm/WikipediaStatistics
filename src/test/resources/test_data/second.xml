@@ -1,0 +1,124 @@
+<mediawiki version="0.10" xml:lang="ru">
+    <siteinfo>
+        <sitename>Википедия</sitename>
+        <dbname>ruwiki</dbname>
+        <base>https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0</base>
+        <generator>MediaWiki 1.36.0-wmf.14</generator>
+        <case>first-letter</case>
+        <namespaces>
+            <namespace key="-2" case="first-letter">Медиа</namespace>
+            <namespace key="-1" case="first-letter">Служебная</namespace>
+            <namespace key="0" case="first-letter" />
+            <namespace key="1" case="first-letter">Обсуждение</namespace>
+            <namespace key="2" case="first-letter">Участник</namespace>
+            <namespace key="3" case="first-letter">Обсуждение участника</namespace>
+            <namespace key="4" case="first-letter">Википедия</namespace>
+            <namespace key="5" case="first-letter">Обсуждение Википедии</namespace>
+            <namespace key="6" case="first-letter">Файл</namespace>
+            <namespace key="7" case="first-letter">Обсуждение файла</namespace>
+            <namespace key="8" case="first-letter">MediaWiki</namespace>
+            <namespace key="9" case="first-letter">Обсуждение MediaWiki</namespace>
+            <namespace key="10" case="first-letter">Шаблон</namespace>
+            <namespace key="11" case="first-letter">Обсуждение шаблона</namespace>
+            <namespace key="12" case="first-letter">Справка</namespace>
+            <namespace key="13" case="first-letter">Обсуждение справки</namespace>
+            <namespace key="14" case="first-letter">Категория</namespace>
+            <namespace key="15" case="first-letter">Обсуждение категории</namespace>
+            <namespace key="100" case="first-letter">Портал</namespace>
+            <namespace key="101" case="first-letter">Обсуждение портала</namespace>
+            <namespace key="102" case="first-letter">Инкубатор</namespace>
+            <namespace key="103" case="first-letter">Обсуждение Инкубатора</namespace>
+            <namespace key="104" case="first-letter">Проект</namespace>
+            <namespace key="105" case="first-letter">Обсуждение проекта</namespace>
+            <namespace key="106" case="first-letter">Арбитраж</namespace>
+            <namespace key="107" case="first-letter">Обсуждение арбитража</namespace>
+            <namespace key="446" case="first-letter">Education Program</namespace>
+            <namespace key="447" case="first-letter">Education Program talk</namespace>
+            <namespace key="828" case="first-letter">Модуль</namespace>
+            <namespace key="829" case="first-letter">Обсуждение модуля</namespace>
+            <namespace key="2300" case="first-letter">Гаджет</namespace>
+            <namespace key="2301" case="first-letter">Обсуждение гаджета</namespace>
+            <namespace key="2302" case="case-sensitive">Определение гаджета</namespace>
+            <namespace key="2303" case="case-sensitive">Обсуждение определения гаджета</namespace>
+            <namespace key="2600" case="first-letter">Тема</namespace>
+        </namespaces>
+    </siteinfo>
+    <page>
+        <title>Базовая статья</title>
+        <ns>0</ns>
+        <id>4</id>
+        <redirect title="Заглавная страница" />
+        <restrictions>sysop</restrictions>
+        <revision>
+            <id>237414</id>
+            <parentid>22491</parentid>
+            <timestamp>2004-08-09T04:36:57Z</timestamp>
+            <contributor>
+                <username>Maximaximax</username>
+                <id>450</id>
+            </contributor>
+            <comment>redir</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="49" xml:space="preserve">#REDIRECT [[Заглавная страница]]</text>
+            <sha1>fv75zcmgjvd2h4rn3jqc0yrlf07afkh</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>Участник:Hijiri</title>
+        <ns>2</ns>
+        <id>5</id>
+        <revision>
+            <id>96054494</id>
+            <parentid>59766042</parentid>
+            <timestamp>2018-11-02T13:25:41Z</timestamp>
+            <contributor>
+                <username>Hijiri</username>
+                <id>1</id>
+            </contributor>
+            <comment>/* = */ link to Википедия:История_русскоязычного_раздела</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="1256" xml:space="preserve">{{userbox|gold|white|id=&lt;span style=&quot;color: black; font-size: 18pt;&quot;&gt;#1&lt;/span&gt;|info=Первый участник Русской Википедии!}}
+Высшее призвание человека состоит в том, чтобы не только объяснить, но и изменить мир, сделать его лучшим.  — И. В. Мичурин
+
+----
+
+'''Hijiri''' 14:52 Nov 13, 2002 (UTC)
+
+Привет! Я японский юрисконсульт, который работает в Токио.
+
+My homeground is http://ja.wikipedia.org/wiki/User:Hijiri
+
+Первый участник Русской Википедии с 7 Ноябрь 2002г.
+
+----
+
+Обоете ите куретеите аригато!
+
+[[Википедия:История_русскоязычного_раздела]]
+
+[[У:Hijiri|Hijiri]] ([[ОУ:Hijiri|обс.]]) 13:25, 2 ноября 2018 (UTC)
+
+----
+
+===reminder for me===
+Russian keyboard assignment
+
+ё1234567890-= &lt;BR&gt;
+ йцукенгшщзхъ &lt;BR&gt;
+  фывапролджэ\ &lt;BR&gt;
+   ячсмитьбю. &lt;BR&gt;
+&lt;BR&gt;
+Ё!&quot;№;%:?*()_+ &lt;BR&gt;
+ ЙЦУКЕНГШЩЗХЪ &lt;BR&gt;
+  ФЫВАПРОЛДЖЭ/ &lt;BR&gt;
+   ЯЧСМИТЬБЮ, &lt;BR&gt;
+
+[[ja:利用者:Hijiri]]
+[[en:User:Hijiri]]
+[[fr:Utilisateur:Hijiri]]</text>
+            <sha1>or4t6a2als1635lkjctxt3gkqdf9wi1</sha1>
+        </revision>
+    </page>
+</mediawiki>

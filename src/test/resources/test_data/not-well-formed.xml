@@ -1,0 +1,6 @@
+<mediawiki xml:lang="ru">
+    <page>
+        <title>Простой заголовок</title>
+        <revision>
+            <timestamp>2020-01-01T00:00:00Z</timestamp>
+            <text bytes="26">Простой текст</text>
