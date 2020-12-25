@@ -72,7 +72,7 @@ class SaxHandler(nThreads: Int = 1) : DefaultHandler() {
             "timestamp" to "Распределение статей по времени:",
         )
         val result = eventManager.collectStatistics()
-        val lineBreak = "${13.toChar()}${10.toChar()}" // safe "\n"
+        val lineBreak = "\n"
         return (tagInfo.joinToString(lineBreak) { (name, info) ->
             info + lineBreak +
             result[name]?.joinToString("") { (index, value) ->

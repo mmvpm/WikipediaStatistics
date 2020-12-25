@@ -9,25 +9,19 @@ class StatisticsService {
     private val tempDirectory = "temp_data"
 
     fun collectStatistics(inputs: List<String>, output: String, nThreads: Int) {
-        createTempDirectory()
-        println("Unpacking...")
+        println("Unpacking archive(s)...")
         val outputFiles = unarchive(inputs)
 
-        println("Parsing...")
-        val handler = SaxHandler(nThreads)
-        val parser = SAXParserFactory.newInstance().newSAXParser()
-        for (outputFile in outputFiles) {
-            parser.parse(outputFile, handler)
-        }
-        handler.shutdown()
+        println("Parsing xml-file(s)...")
+        val statistics = parse(outputFiles, nThreads)
 
-        val outputStream = File(output).outputStream()
-        outputStream.write(handler.collectStatistics().toByteArray())
-        outputStream.close()
-        deleteTempDirectory()
+        println("Printing results...")
+        printResults(output, statistics)
     }
 
     private fun unarchive(inputs: List<String>): List<File> {
+        createTempDirectory()
+
         val inputFiles = inputs.map { File(it) }
         inputFiles.all { file ->
             file.exists() && file.isFile && file.canRead()
@@ -41,6 +35,23 @@ class StatisticsService {
             archiver.unarchive(inputFiles[index], outputFiles[index])
         }
         return outputFiles
+    }
+
+    private fun parse(outputFiles: List<File>, nThreads: Int): String {
+        val handler = SaxHandler(nThreads)
+        val parser = SAXParserFactory.newInstance().newSAXParser()
+        for (outputFile in outputFiles) {
+            parser.parse(outputFile, handler)
+        }
+        handler.shutdown()
+        return handler.collectStatistics()
+    }
+
+    private fun printResults(output: String, statistics: String) {
+        val outputStream = File(output).outputStream()
+        outputStream.write(statistics.toByteArray())
+        outputStream.close()
+        deleteTempDirectory()
     }
 
     private fun createTempDirectory() {
